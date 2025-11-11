@@ -1,0 +1,3 @@
+source;share/Paxini_Tac/hook/pythonpath.ps1
+source;share/Paxini_Tac/hook/pythonpath.dsv
+source;share/Paxini_Tac/hook/pythonpath.sh

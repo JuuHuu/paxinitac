@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/tactile_raw_point_publisher/tactile_raw_point_publisher.egg-info
+writing ../../build/tactile_raw_point_publisher/tactile_raw_point_publisher.egg-info/PKG-INFO
+writing dependency_links to ../../build/tactile_raw_point_publisher/tactile_raw_point_publisher.egg-info/dependency_links.txt
+writing entry points to ../../build/tactile_raw_point_publisher/tactile_raw_point_publisher.egg-info/entry_points.txt
+writing requirements to ../../build/tactile_raw_point_publisher/tactile_raw_point_publisher.egg-info/requires.txt
+writing top-level names to ../../build/tactile_raw_point_publisher/tactile_raw_point_publisher.egg-info/top_level.txt
+writing manifest file '../../build/tactile_raw_point_publisher/tactile_raw_point_publisher.egg-info/SOURCES.txt'
+reading manifest file '../../build/tactile_raw_point_publisher/tactile_raw_point_publisher.egg-info/SOURCES.txt'
+writing manifest file '../../build/tactile_raw_point_publisher/tactile_raw_point_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/juu/Documents/paxinitac/build/tactile_raw_point_publisher/build/lib/tactile_raw_point_publisher
+copying tactile_raw_point_publisher/force_marker_node.py -> /home/juu/Documents/paxinitac/build/tactile_raw_point_publisher/build/lib/tactile_raw_point_publisher
+copying tactile_raw_point_publisher/__init__.py -> /home/juu/Documents/paxinitac/build/tactile_raw_point_publisher/build/lib/tactile_raw_point_publisher
+copying tactile_raw_point_publisher/node.py -> /home/juu/Documents/paxinitac/build/tactile_raw_point_publisher/build/lib/tactile_raw_point_publisher
+running install
+running install_lib
+creating /home/juu/Documents/paxinitac/install/tactile_raw_point_publisher/lib/python3.10/site-packages/tactile_raw_point_publisher
+copying /home/juu/Documents/paxinitac/build/tactile_raw_point_publisher/build/lib/tactile_raw_point_publisher/force_marker_node.py -> /home/juu/Documents/paxinitac/install/tactile_raw_point_publisher/lib/python3.10/site-packages/tactile_raw_point_publisher
+copying /home/juu/Documents/paxinitac/build/tactile_raw_point_publisher/build/lib/tactile_raw_point_publisher/__init__.py -> /home/juu/Documents/paxinitac/install/tactile_raw_point_publisher/lib/python3.10/site-packages/tactile_raw_point_publisher
+copying /home/juu/Documents/paxinitac/build/tactile_raw_point_publisher/build/lib/tactile_raw_point_publisher/node.py -> /home/juu/Documents/paxinitac/install/tactile_raw_point_publisher/lib/python3.10/site-packages/tactile_raw_point_publisher
+byte-compiling /home/juu/Documents/paxinitac/install/tactile_raw_point_publisher/lib/python3.10/site-packages/tactile_raw_point_publisher/force_marker_node.py to force_marker_node.cpython-310.pyc
+byte-compiling /home/juu/Documents/paxinitac/install/tactile_raw_point_publisher/lib/python3.10/site-packages/tactile_raw_point_publisher/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/juu/Documents/paxinitac/install/tactile_raw_point_publisher/lib/python3.10/site-packages/tactile_raw_point_publisher/node.py to node.cpython-310.pyc
+running install_data
+creating /home/juu/Documents/paxinitac/install/tactile_raw_point_publisher/share/ament_index/resource_index/packages
+copying resource/tactile_raw_point_publisher -> /home/juu/Documents/paxinitac/install/tactile_raw_point_publisher/share/ament_index/resource_index/packages
+copying package.xml -> /home/juu/Documents/paxinitac/install/tactile_raw_point_publisher/share/tactile_raw_point_publisher
+creating /home/juu/Documents/paxinitac/install/tactile_raw_point_publisher/share/tactile_raw_point_publisher/launch
+copying launch/tactile_raw_point_publisher.launch.py -> /home/juu/Documents/paxinitac/install/tactile_raw_point_publisher/share/tactile_raw_point_publisher/launch
+creating /home/juu/Documents/paxinitac/install/tactile_raw_point_publisher/share/tactile_raw_point_publisher/data
+copying ../../PX6AX-GEN3-DP-S2716-Core.csv -> /home/juu/Documents/paxinitac/install/tactile_raw_point_publisher/share/tactile_raw_point_publisher/data
+running install_egg_info
+Copying ../../build/tactile_raw_point_publisher/tactile_raw_point_publisher.egg-info to /home/juu/Documents/paxinitac/install/tactile_raw_point_publisher/lib/python3.10/site-packages/tactile_raw_point_publisher-0.1.0-py3.10.egg-info
+running install_scripts
+Installing tactile_force_marker_array script to /home/juu/Documents/paxinitac/install/tactile_raw_point_publisher/lib/tactile_raw_point_publisher
+Installing tactile_raw_point_publisher script to /home/juu/Documents/paxinitac/install/tactile_raw_point_publisher/lib/tactile_raw_point_publisher
+writing list of installed files to '/home/juu/Documents/paxinitac/build/tactile_raw_point_publisher/install.log'

@@ -1,0 +1,18 @@
+[0.248s] Invoking command in '/home/juu/Documents/paxinitac/PaxiniTac': CONDA_PROMPT_MODIFIER=(paxinitac) PYTHONPATH=/home/juu/Documents/paxinitac/build/Paxini_Tac/prefix_override:/home/juu/miniconda3/envs/paxinitac/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/juu/Documents/paxinitac/install/Paxini_Tac/lib/python3.10/site-packages:${PYTHONPATH} /home/juu/miniconda3/envs/paxinitac/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/Paxini_Tac build --build-base /home/juu/Documents/paxinitac/build/Paxini_Tac/build install --record /home/juu/Documents/paxinitac/build/Paxini_Tac/install.log --single-version-externally-managed
+[0.335s] running egg_info
+[0.339s] writing ../build/Paxini_Tac/Paxini_Tac.egg-info/PKG-INFO
+[0.339s] writing dependency_links to ../build/Paxini_Tac/Paxini_Tac.egg-info/dependency_links.txt
+[0.340s] writing top-level names to ../build/Paxini_Tac/Paxini_Tac.egg-info/top_level.txt
+[0.349s] reading manifest file '../build/Paxini_Tac/Paxini_Tac.egg-info/SOURCES.txt'
+[0.380s] writing manifest file '../build/Paxini_Tac/Paxini_Tac.egg-info/SOURCES.txt'
+[0.380s] running build
+[0.380s] running build_py
+[0.380s] copying Paxini_Tac.py -> /home/juu/Documents/paxinitac/build/Paxini_Tac/build/lib
+[0.380s] running install
+[0.382s] running install_lib
+[0.387s] running install_egg_info
+[0.392s] removing '/home/juu/Documents/paxinitac/install/Paxini_Tac/lib/python3.10/site-packages/Paxini_Tac-0.1.0-py3.10.egg-info' (and everything under it)
+[0.392s] Copying ../build/Paxini_Tac/Paxini_Tac.egg-info to /home/juu/Documents/paxinitac/install/Paxini_Tac/lib/python3.10/site-packages/Paxini_Tac-0.1.0-py3.10.egg-info
+[0.392s] running install_scripts
+[0.427s] writing list of installed files to '/home/juu/Documents/paxinitac/build/Paxini_Tac/install.log'
+[0.438s] Invoked command in '/home/juu/Documents/paxinitac/PaxiniTac' returned '0': CONDA_PROMPT_MODIFIER=(paxinitac) PYTHONPATH=/home/juu/Documents/paxinitac/build/Paxini_Tac/prefix_override:/home/juu/miniconda3/envs/paxinitac/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/juu/Documents/paxinitac/install/Paxini_Tac/lib/python3.10/site-packages:${PYTHONPATH} /home/juu/miniconda3/envs/paxinitac/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/Paxini_Tac build --build-base /home/juu/Documents/paxinitac/build/Paxini_Tac/build install --record /home/juu/Documents/paxinitac/build/Paxini_Tac/install.log --single-version-externally-managed
