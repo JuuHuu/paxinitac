@@ -3,22 +3,22 @@
      Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
 <robot
-  name="Sensor_holer">
+  name="Sensor_holer_nc">
   <link
     name="sensor_base">
     <inertial>
       <origin
-        xyz="-2.63154689234279E-07 -1.71925736229113E-07 0.0667667378943572"
+        xyz="-2.6315E-07 -1.7193E-07 0.066767"
         rpy="0 0 0" />
       <mass
-        value="0.144120684918715" />
+        value="0.14412" />
       <inertia
-        ixx="0.00015658857211435"
-        ixy="-3.36287844593579E-08"
-        ixz="2.43408440957269E-09"
-        iyy="0.000156618075024728"
-        iyz="1.59025003833506E-09"
-        izz="3.84827635377377E-05" />
+        ixx="0.00015659"
+        ixy="-3.3629E-08"
+        ixz="2.4341E-09"
+        iyy="0.00015662"
+        iyz="1.5903E-09"
+        izz="3.8483E-05" />
     </inertial>
     <visual>
       <origin
@@ -31,7 +31,7 @@
       <material
         name="">
         <color
-          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -48,17 +48,17 @@
     name="sensor_3_link">
     <inertial>
       <origin
-        xyz="8.33341937167315E-06 0.00503674785830824 0.0048006860598108"
+        xyz="8.2474E-06 -0.0073777 -0.0036856"
         rpy="0 0 0" />
       <mass
-        value="0.00623069775844809" />
+        value="0.0062307" />
       <inertia
-        ixx="5.29257273681787E-07"
-        ixy="1.97293937577808E-10"
-        ixz="-1.456932381637E-11"
-        iyy="1.84415286400354E-07"
-        iyz="3.4717432638237E-08"
-        izz="5.91240440864403E-07" />
+        ixx="5.2926E-07"
+        ixy="-1.9802E-10"
+        ixz="4.3177E-12"
+        iyy="1.8192E-07"
+        iyz="1.3607E-08"
+        izz="5.9373E-07" />
     </inertial>
     <visual>
       <origin
@@ -71,7 +71,7 @@
       <material
         name="">
         <color
-          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -88,8 +88,8 @@
     name="sensor_3_link_joint"
     type="fixed">
     <origin
-      xyz="0.0011986 -0.002024 0.204"
-      rpy="1.5708 0 0.57871" />
+      xyz="0.0020191 -0.0032797 0.20148"
+      rpy="-1.6223 0 0.57871" />
     <parent
       link="sensor_base" />
     <child
@@ -101,17 +101,17 @@
     name="sensor_1_link">
     <inertial>
       <origin
-        xyz="0 0 0"
+        xyz="8.2514E-06 -0.0073777 -0.0036856"
         rpy="0 0 0" />
       <mass
-        value="0" />
+        value="0.0062307" />
       <inertia
-        ixx="0"
-        ixy="0"
-        ixz="0"
-        iyy="0"
-        iyz="0"
-        izz="0" />
+        ixx="5.2926E-07"
+        ixy="-1.9778E-10"
+        ixz="4.388E-12"
+        iyy="1.8192E-07"
+        iyz="1.3607E-08"
+        izz="5.9373E-07" />
     </inertial>
     <visual>
       <origin
@@ -124,7 +124,7 @@
       <material
         name="">
         <color
-          rgba="1 1 1 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -141,13 +141,13 @@
     name="sensor_1_link_joint"
     type="fixed">
     <origin
-      xyz="-0.0011986 0.002024 0.204"
-      rpy="1.5708 0 -2.5629" />
+      xyz="-0.0020191 0.0032797 0.20148"
+      rpy="-1.6223 0 -2.5629" />
     <parent
       link="sensor_base" />
     <child
       link="sensor_1_link" />
     <axis
-      xyz="0 0 0" />
+      xyz="1 0 0" />
   </joint>
 </robot>

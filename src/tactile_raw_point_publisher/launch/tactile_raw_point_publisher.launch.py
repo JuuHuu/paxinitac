@@ -14,7 +14,7 @@ def generate_launch_description():
         sensor_urdf_xml = f.read()
         
     # parent frame: robot flange / tool frame (e.g. "tool0" or "flange")
-    parent_frame = 'tool0'
+    parent_frame = 'flange'
     # child frame: root of your sensor holder URDF
     child_frame = 'sensor_base'
 
