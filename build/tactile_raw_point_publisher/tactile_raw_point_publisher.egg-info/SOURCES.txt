@@ -10,6 +10,9 @@ setup.py
 ../../build/tactile_raw_point_publisher/tactile_raw_point_publisher.egg-info/top_level.txt
 ../../build/tactile_raw_point_publisher/tactile_raw_point_publisher.egg-info/zip-safe
 launch/tactile_raw_point_publisher.launch.py
+meshes/sensor_1_link.STL
+meshes/sensor_3_link.STL
+meshes/sensor_base.STL
 resource/tactile_raw_point_publisher
 tactile_raw_point_publisher/__init__.py
 tactile_raw_point_publisher/force_marker_node.py
@@ -17,3 +20,4 @@ tactile_raw_point_publisher/node.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+urdf/Sensor_holer_URDF.urdf
