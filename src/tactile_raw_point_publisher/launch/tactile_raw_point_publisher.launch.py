@@ -13,7 +13,27 @@ def generate_launch_description():
     with open(sensor_urdf_path, 'r') as f:
         sensor_urdf_xml = f.read()
         
+    # parent frame: robot flange / tool frame (e.g. "tool0" or "flange")
+    parent_frame = 'tool0'
+    # child frame: root of your sensor holder URDF
+    child_frame = 'sensor_base'
+
+    # ⚙️ Static TF from flange -> sensor_base
+      
     return LaunchDescription([
+        Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        name='flange_to_sensor_base_tf',
+        # arguments: x y z roll pitch yaw parent_frame child_frame
+        arguments=[
+            '0.0', '0.0', '0.0',      # xyz in meters
+            '0.0', '0.0', '0.0',      # rpy in radians
+            parent_frame,
+            child_frame,
+        ],
+        output='screen',
+        ),
         Node(
             package='robot_state_publisher',
             executable='robot_state_publisher',
