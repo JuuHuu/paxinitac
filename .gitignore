@@ -1,0 +1,4 @@
+# VSCode files to ignore
+.vscode/
+.vscode/browse.vc.db
+.vscode/ipch/

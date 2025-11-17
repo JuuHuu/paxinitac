@@ -1,3 +1,26 @@
 {
-    "cmake.sourceDirectory": "/home/juu/Documents/paxinitac/old/src/tactile_raw_point_publisher"
+    "cmake.sourceDirectory": "/home/juu/Documents/paxinitac/old/src/tactile_raw_point_publisher",
+    "python.autoComplete.extraPaths": [
+        "/home/juu/Documents/paxinitac/install/tactile_raw_point_publisher/lib/python3.10/site-packages",
+        "/home/juu/Documents/paxinitac/install/Paxini_Tac/lib/python3.10/site-packages",
+        "/home/juu/ws_moveit2/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages",
+        "/home/juu/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages",
+        "/home/juu/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages",
+        "/home/juu/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages",
+        "/home/juu/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/juu/Documents/paxinitac/install/tactile_raw_point_publisher/lib/python3.10/site-packages",
+        "/home/juu/Documents/paxinitac/install/Paxini_Tac/lib/python3.10/site-packages",
+        "/home/juu/ws_moveit2/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages",
+        "/home/juu/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages",
+        "/home/juu/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages",
+        "/home/juu/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages",
+        "/home/juu/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true
 }

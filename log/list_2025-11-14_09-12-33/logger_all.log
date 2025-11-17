@@ -1,0 +1,71 @@
+[-1763082751204172032.000s] DEBUG:colcon:Command line arguments: ['/home/juu/miniconda3/bin/colcon', 'list', '-p', '--base-paths', '/home/juu/Documents/paxinitac', '--log-base', '/dev/null']
+[-1763082751204172032.000s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/juu/Documents/paxinitac', '--log-base', '/dev/null'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76b0e241cc00>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x76b0e25d97f0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x76b0e25d97f0>>)
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[-1763082751204172032.000s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/juu/Documents/paxinitac', '/home/juu/Documents/paxinitac/--log-base', '/dev/null'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac) by extensions ['ignore', 'ignore_ament_install']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac) by extension 'ignore'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac) by extension 'ignore_ament_install'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac) by extensions ['colcon_pkg']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac) by extension 'colcon_pkg'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac) by extensions ['colcon_meta']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac) by extension 'colcon_meta'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac) by extensions ['ros']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac) by extension 'ros'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac) by extensions ['cmake', 'python']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac) by extension 'cmake'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac) by extension 'python'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac) by extensions ['python_setup_py']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac) by extension 'python_setup_py'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/PaxiniTac) by extensions ['ignore', 'ignore_ament_install']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/PaxiniTac) by extension 'ignore'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/PaxiniTac) by extension 'ignore_ament_install'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/PaxiniTac) by extensions ['colcon_pkg']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/PaxiniTac) by extension 'colcon_pkg'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/PaxiniTac) by extensions ['colcon_meta']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/PaxiniTac) by extension 'colcon_meta'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/PaxiniTac) by extensions ['ros']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/PaxiniTac) by extension 'ros'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/PaxiniTac) by extensions ['cmake', 'python']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/PaxiniTac) by extension 'cmake'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/PaxiniTac) by extension 'python'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/PaxiniTac) by extensions ['python_setup_py']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/PaxiniTac) by extension 'python_setup_py'
+[-1763082751204172032.000s] DEBUG:colcon.colcon_core.package_identification:Package '/home/juu/Documents/paxinitac/PaxiniTac' with type 'python' and name 'Paxini_Tac'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/build) by extensions ['ignore', 'ignore_ament_install']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/build) by extension 'ignore'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/build) ignored
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/install) by extensions ['ignore', 'ignore_ament_install']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/install) by extension 'ignore'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/install) ignored
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/log) by extensions ['ignore', 'ignore_ament_install']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/log) by extension 'ignore'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/log) ignored
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src) by extensions ['ignore', 'ignore_ament_install']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src) by extension 'ignore'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src) by extension 'ignore_ament_install'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src) by extensions ['colcon_pkg']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src) by extension 'colcon_pkg'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src) by extensions ['colcon_meta']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src) by extension 'colcon_meta'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src) by extensions ['ros']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src) by extension 'ros'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src) by extensions ['cmake', 'python']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src) by extension 'cmake'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src) by extension 'python'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src) by extensions ['python_setup_py']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src) by extension 'python_setup_py'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src/tactile_raw_point_publisher) by extensions ['ignore', 'ignore_ament_install']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src/tactile_raw_point_publisher) by extension 'ignore'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src/tactile_raw_point_publisher) by extension 'ignore_ament_install'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src/tactile_raw_point_publisher) by extensions ['colcon_pkg']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src/tactile_raw_point_publisher) by extension 'colcon_pkg'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src/tactile_raw_point_publisher) by extensions ['colcon_meta']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src/tactile_raw_point_publisher) by extension 'colcon_meta'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src/tactile_raw_point_publisher) by extensions ['ros']
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/juu/Documents/paxinitac/src/tactile_raw_point_publisher) by extension 'ros'
+[-1763082751204172032.000s] DEBUG:colcon.colcon_core.package_identification:Package '/home/juu/Documents/paxinitac/src/tactile_raw_point_publisher' with type 'ros.ament_python' and name 'tactile_raw_point_publisher'
+[-1763082751204172032.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
