@@ -19,7 +19,24 @@ def generate_launch_description():
     child_frame = 'sensor_base'
 
     # ⚙️ Static TF from flange -> sensor_base
+<<<<<<< HEAD
       
+=======
+    static_tf_flange_to_sensor_base = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        name='flange_to_sensor_base_tf',
+        # arguments: x y z roll pitch yaw parent_frame child_frame
+        arguments=[
+            '0.0', '0.0', '0.0',      # xyz in meters
+            '0.0', '0.0', '0.0',      # rpy in radians
+            parent_frame,
+            child_frame,
+        ],
+        output='screen',
+    )
+        
+>>>>>>> a77e7753399302b0e2329860c9a339eb7542c81e
     return LaunchDescription([
         Node(
         package='tf2_ros',
