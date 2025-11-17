@@ -48,14 +48,14 @@
     name="sensor_3_link">
     <inertial>
       <origin
-        xyz="8.2474E-06 -0.0073777 -0.0036856"
+        xyz="8.2511E-06 0.0073777 0.0036856"
         rpy="0 0 0" />
       <mass
         value="0.0062307" />
       <inertia
         ixx="5.2926E-07"
-        ixy="-1.9802E-10"
-        ixz="4.3177E-12"
+        ixy="1.978E-10"
+        ixz="-4.3818E-12"
         iyy="1.8192E-07"
         iyz="1.3607E-08"
         izz="5.9373E-07" />
@@ -89,7 +89,7 @@
     type="fixed">
     <origin
       xyz="0.0020191 -0.0032797 0.20148"
-      rpy="-1.6223 0 0.57871" />
+      rpy="1.5193 0 0.57871" />
     <parent
       link="sensor_base" />
     <child
@@ -101,14 +101,14 @@
     name="sensor_1_link">
     <inertial>
       <origin
-        xyz="8.2514E-06 -0.0073777 -0.0036856"
+        xyz="8.2514E-06 0.0073777 0.0036856"
         rpy="0 0 0" />
       <mass
         value="0.0062307" />
       <inertia
         ixx="5.2926E-07"
-        ixy="-1.9778E-10"
-        ixz="4.388E-12"
+        ixy="1.9778E-10"
+        ixz="-4.388E-12"
         iyy="1.8192E-07"
         iyz="1.3607E-08"
         izz="5.9373E-07" />
@@ -142,12 +142,12 @@
     type="fixed">
     <origin
       xyz="-0.0020191 0.0032797 0.20148"
-      rpy="-1.6223 0 -2.5629" />
+      rpy="1.5193 0 -2.5629" />
     <parent
       link="sensor_base" />
     <child
       link="sensor_1_link" />
     <axis
-      xyz="1 0 0" />
+      xyz="0 0 0" />
   </joint>
 </robot>
