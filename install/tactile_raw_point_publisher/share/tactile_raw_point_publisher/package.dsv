@@ -4,3 +4,6 @@ source;share/tactile_raw_point_publisher/hook/pythonpath.sh
 source;share/tactile_raw_point_publisher/hook/ament_prefix_path.ps1
 source;share/tactile_raw_point_publisher/hook/ament_prefix_path.dsv
 source;share/tactile_raw_point_publisher/hook/ament_prefix_path.sh
+source;../../build/tactile_raw_point_publisher/share/tactile_raw_point_publisher/hook/pythonpath_develop.ps1
+source;../../build/tactile_raw_point_publisher/share/tactile_raw_point_publisher/hook/pythonpath_develop.dsv
+source;../../build/tactile_raw_point_publisher/share/tactile_raw_point_publisher/hook/pythonpath_develop.sh

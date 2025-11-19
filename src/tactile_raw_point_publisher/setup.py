@@ -29,6 +29,8 @@ setup(
         'console_scripts': [
             'tactile_raw_point_publisher = tactile_raw_point_publisher.node:main',
             'tactile_force_marker_array = tactile_raw_point_publisher.force_marker_node:main',
+            'tactile_force_vis = tactile_raw_point_publisher.force_one_marker:main',
+            
         ],
     },
 )

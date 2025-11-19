@@ -1,0 +1,19 @@
+def stream_joint_torques():
+  pc_ip      = "192.168.100.215"
+  pc_port    = 50010
+  sock_name  = "torque_socket"
+
+  socket_open(pc_ip, pc_port, sock_name)
+  sleep(0.5)
+
+  # Send one test line so we know the script runs
+  socket_send_string("[0, 0, 0, 0, 0, 0]\n", sock_name)
+
+  while True:
+    torques = get_joint_torques()
+    socket_send_string(to_str(torques) + "\n", sock_name)
+    sleep(0.05)
+  end
+end
+
+stream_joint_torques()

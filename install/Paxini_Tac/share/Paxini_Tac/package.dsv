@@ -1,3 +1,6 @@
 source;share/Paxini_Tac/hook/pythonpath.ps1
 source;share/Paxini_Tac/hook/pythonpath.dsv
 source;share/Paxini_Tac/hook/pythonpath.sh
+source;../../build/Paxini_Tac/share/Paxini_Tac/hook/pythonpath_develop.ps1
+source;../../build/Paxini_Tac/share/Paxini_Tac/hook/pythonpath_develop.dsv
+source;../../build/Paxini_Tac/share/Paxini_Tac/hook/pythonpath_develop.sh
