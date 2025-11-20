@@ -1,19 +1,38 @@
-def stream_joint_torques():
-  pc_ip      = "192.168.100.215"
-  pc_port    = 50010
-  sock_name  = "torque_socket"
+def stream_joint_and_wrist():
+  # === CONFIG: change to your PC IP and port ===
+  pc_ip      = "192.168.100.215"   # your PC
+  pc_port    = 50010               # must match Python server
+  sock_name  = "joint_wrist_socket"
+
+  # Optional: zero the FT sensor before reading
+  # zero_ftsensor()
 
   socket_open(pc_ip, pc_port, sock_name)
   sleep(0.5)
 
-  # Send one test line so we know the script runs
-  socket_send_string("[0, 0, 0, 0, 0, 0]\n", sock_name)
+  # Optional: one test line so we see something immediately
+  socket_send_string("[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]", sock_name)
 
   while True:
-    torques = get_joint_torques()
-    socket_send_string(to_str(torques) + "\n", sock_name)
-    sleep(0.05)
+    # 6 joint torques (Nm)
+    jt = get_joint_torques()
+
+    # 6D TCP wrench: p[Fx, Fy, Fz, Tx, Ty, Tz]
+    ft = get_tcp_force()
+
+    # Build one 12-element list:
+    # [J1..J6 torque, Fx, Fy, Fz, Tx, Ty, Tz]
+    data = [jt[0], jt[1], jt[2], jt[3], jt[4], jt[5],
+            ft[0], ft[1], ft[2], ft[3], ft[4], ft[5]]
+
+    # Send as a Python-like list string, e.g. "[t1, t2, ..., Tz]"
+    socket_send_string(to_str(data), sock_name)
+
+    sleep(0.02)   # ~50 Hz
   end
+
+  socket_close(sock_name)
 end
 
-stream_joint_torques()
+# === IMPORTANT: actually start it ===
+stream_joint_and_wrist()
