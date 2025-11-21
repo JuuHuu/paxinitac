@@ -1,6 +1,6 @@
 def stream_joint_and_wrist():
   # === CONFIG: change to your PC IP and port ===
-  pc_ip      = "192.168.100.215"   # your PC
+  pc_ip      = "192.168.100.244"   # your PC
   pc_port    = 50010               # must match Python server
   sock_name  = "joint_wrist_socket"
 

@@ -77,4 +77,10 @@ def generate_launch_description():
                 {'default_frame': 'sensor_3_link'},
             ],
         ),
+        Node(
+            package='tactile_raw_point_publisher',
+            executable='tactile_force_vis',
+            name='tactile_force_one_marker',
+            output='screen',
+        ),
     ])
